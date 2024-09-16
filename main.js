@@ -49,7 +49,7 @@ function addAccount() {
         console.log(data);
         
         localStorage.setItem('userName', data.fname);
-        window.location.href = '../html/profile.html';
+        window.location.href = 'profile.html';
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);

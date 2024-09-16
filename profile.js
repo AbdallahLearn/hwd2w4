@@ -2,7 +2,7 @@ const userName = localStorage.getItem('userName');
 const btnLogout = document.getElementById('btn-logout')
 
 btnLogout.addEventListener('click',function(){
-    window.location.href = '../html/index.html';
+    window.location.href = 'index.html';
 })
 
 

@@ -23,7 +23,7 @@ function handleLogin(users) {
             localStorage.setItem('userName', user.fname);
             localStorage.setItem('userEmail', user.email);
 
-            window.location.href = '../html/profile.html';
+            window.location.href = 'profile.html';
         } else {
             alert('The email or password is incorrect');
         }
